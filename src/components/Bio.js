@@ -24,7 +24,8 @@ class Bio extends React.Component {
         />
         <p style={{ maxWidth: 310 }}>
           Personal blog by{' '}
-          <a href="https://mobile.twitter.com/quinnmcphail">Quinn McPhail</a>.<br/>
+          <a href="https://mobile.twitter.com/quinnmcphail">Quinn McPhail</a>.
+          <br />
           ⚡️Lightning App Dev Champion
         </p>
       </div>
