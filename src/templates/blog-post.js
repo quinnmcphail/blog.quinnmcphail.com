@@ -67,21 +67,21 @@ class Translations extends React.Component {
             </span>
           )}
           {lang !== 'en' && (
-            <>
+            <React.Fragment>
               <br />
               <br />
               {lang !== 'ru' && (
-                <>
+                <React.Fragment>
                   <Link to={languageLink('en')}>Read the original</Link>
                   {' • '}
                   <a href={editUrl} target="_blank" rel="noopener noreferrer">
                     Improve this translation
                   </a>
                   {' • '}
-                </>
+                </React.Fragment>
               )}
               <Link to={`/${lang}`}>View all translated posts</Link>{' '}
-            </>
+            </React.Fragment>
           )}
         </Panel>
       </div>

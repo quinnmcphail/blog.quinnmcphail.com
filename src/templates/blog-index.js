@@ -24,7 +24,6 @@ class BlogIndexTemplate extends React.Component {
           <Bio />
         </aside>
         <main>
-
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug;
             return (
