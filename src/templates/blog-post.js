@@ -6,7 +6,6 @@ import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import Signup from '../components/Signup';
 import Panel from '../components/Panel';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
@@ -16,8 +15,8 @@ import {
   loadFontsForCode,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'gaearon';
-const GITHUB_REPO_NAME = 'overreacted.io';
+const GITHUB_USERNAME = 'quinnmcphail';
+const GITHUB_REPO_NAME = 'blog.quinnmcphail.com';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif`;
@@ -131,7 +130,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
+      `https://blog.quinnmcphail.com${enSlug}`
     )}`;
 
     return (
@@ -183,14 +182,6 @@ class BlogPostTemplate extends React.Component {
           </article>
         </main>
         <aside>
-          <div
-            style={{
-              margin: '90px 0 40px 0',
-              fontFamily: systemFont,
-            }}
-          >
-            <Signup />
-          </div>
           <h3
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -201,11 +192,11 @@ class BlogPostTemplate extends React.Component {
               style={{
                 boxShadow: 'none',
                 textDecoration: 'none',
-                color: 'var(--pink)',
+                color: 'var(--blue)',
               }}
               to={'/'}
             >
-              Overreacted
+              Quinn McPhail's Blog
             </Link>
           </h3>
           <Bio />

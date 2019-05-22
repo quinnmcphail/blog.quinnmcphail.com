@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'Quinn McPhail\'s Blog',
+    author: 'Quinn McPhail',
+    description: 'Personal blog by Quinn McPhail.',
+    siteUrl: 'https://blog.quinnmcphail.com',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '@quinnmcphail',
     },
   },
   pathPrefix: '/',
@@ -53,12 +53,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-130227707-1`,
-      },
-    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -112,8 +106,8 @@ module.exports = {
                     node {
                       excerpt(pruneLength: 250)
                       html
-                      fields { 
-                        slug   
+                      fields {
+                        slug
                       }
                       frontmatter {
                         title
@@ -126,7 +120,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Quinn McPhail's Blog RSS Feed",
           },
         ],
       },
@@ -134,8 +128,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Overreacted`,
-        short_name: `Overreacted`,
+        name: `Quinn McPhail's Blog`,
+        short_name: `Quinn McPhail's Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

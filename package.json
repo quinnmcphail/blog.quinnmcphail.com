@@ -1,11 +1,11 @@
 {
-  "name": "overreacted",
+  "name": "blog.quinnmcphail.com",
   "private": true,
-  "description": "Overreacted",
+  "description": "Quinn McPhail's Blog",
   "version": "1.0.0",
-  "author": "Dan Abramov <dan.abramov@me.com>",
+  "author": "Quinn McPhail <quinnmcphail@me.com>",
   "bugs": {
-    "url": "https://github.com/gaearon/overreacted.io/issues"
+    "url": ""
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -45,7 +45,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://overreacted.io",
+  "homepage": "https://blog.quinnmcphail.com",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
