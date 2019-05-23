@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Quinn McPhail <quinnmcphail@me.com>",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/quinnmcphail/blog.quinnmcphail.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.6.3",
