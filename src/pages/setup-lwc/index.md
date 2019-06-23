@@ -6,7 +6,7 @@ spoiler: Setup a new project using the new open-source Lightning Web Components 
 
 **Note: This blog post will _not_ teach you how to write Lightning web components. Check out the [official dev guide](https://lwc.dev/guide/introduction) to learn how to write Lightning web components.**
 
-When Salesforce announced they were making their new [Lightning Web Components UI framework](https://lwc.dev/) open-source, I was incredibly excited. One of my goals as a Lightning Champion is to give developers outside of the Salesforce ecosystem a taste of what it's like developing on the platform. Lightning Web Components makes that possible by using tools that are already prevelant in the web development community, making non-Salesforce devs feel right at home.
+When Salesforce announced they were making their new [Lightning Web Components UI framework](https://lwc.dev/) open-source, I was incredibly excited. One of my goals as a Lightning Champion is to give developers outside of the Salesforce ecosystem a taste of what it's like developing on the platform. Lightning Web Components makes that possible by using tools that are already prevalent in the web development community, making non-Salesforce devs feel right at home.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ This will compile your application and run it on a development server. It will a
 
 Navigate to the URL displayed in your command line.
 
-🎉Congrats! You are running a Lightning Web Components application. 🎉
+🎉Congrats on your first Lightning Web Components application. 🎉
 
 ## Development
 
