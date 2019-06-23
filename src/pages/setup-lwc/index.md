@@ -61,7 +61,7 @@ npm run build
 
 This will create a new directory, `dist`, that you can deploy to whatever hosting service you want. I recommend checking out [Heroku](https://www.heroku.com/) or [Netlify](https://www.netlify.com/). They both offer free tiers and make it super easy to distribute your application.
 
-Now go create something awesome!
+Now go create something awesome with Lightning Web Components!
 
 ## Thanks!
 

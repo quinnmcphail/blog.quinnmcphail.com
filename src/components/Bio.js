@@ -17,8 +17,8 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(3),
+            height: rhythm(3),
             borderRadius: '50%',
           }}
         />
@@ -27,6 +27,10 @@ class Bio extends React.Component {
           <a href="https://mobile.twitter.com/quinnmcphail">Quinn McPhail</a>.
           <br />
           ⚡️Lightning App Dev Champion
+          <br />
+          <a href="https://docs.google.com/document/d/18ykKgtlrrPo0Z8iki4wT1SSVAbvrfYTzq5b29AndzgA/edit?usp=sharing">
+            Resume
+          </a>
         </p>
       </div>
     );
