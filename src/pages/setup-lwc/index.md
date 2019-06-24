@@ -14,7 +14,7 @@ There are a few things we need to install before we can start:
 
 * ⚡️ You should have *some* working knowledge of how to use the command line as well as basic commands. If you can change directories, you should be good.
 
-* ⚡️ Install [Node.js](https://nodejs.org/). When you install Node.js, it also installs Node Package Manager (npm). npm is used to download, install, and manage packages used in projects. You can also install [Yarn](https://yarnpkg.com/), another package manager, if you don't like using npm.
+* ⚡️ Install [Node.js](https://nodejs.org/). When you install Node.js, it also installs the Node Package Manager (npm). npm is used to download, install, and manage packages used in projects. You can also install [Yarn](https://yarnpkg.com/), another package manager if you don't like using npm.
 
 * ⚡️ Install a code editor. There are tons out there but I recommend giving [Visual Studio Code](https://code.visualstudio.com/) a try if you haven't found your favorite.
 
@@ -25,14 +25,14 @@ Open up your command line, navigate to the directory you want to create the proj
 ```(zsh)
 npx lwc-create-app lwc-todo
 ```
-Lets break down what that command is doing.
+Let's break down what that command is doing.
 * `npx` is a tool used to run packages from the npm registry.
 * `lwc-create-app` is a tool written by [René Winkelmeyer](https://twitter.com/muenzpraeger) to help bootstrap a new LWC application.
 * `lwc-todo` is the name that you want to give to your project.
 
 After running that command, you will be presented with a bunch of options. Feel free to accept the defaults by hitting enter on each line. You may be required to enter a value for certain options depending on your setup.
 
-It should take a couple seconds to fetch and install all of the packages for your application.
+It should take a couple of seconds to fetch and install all of the packages for your application.
 
 If all goes well, you can change into the project directory and run:
 
