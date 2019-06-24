@@ -20,17 +20,17 @@ There are a few things we need to install before we can start:
 
 ## Creating The Project
 
-Open up your command line and type:
+Open up your command line, navigate to the directory you want to create the project, and run this command:
 
 ```(zsh)
 npx lwc-create-app lwc-todo
 ```
 Lets break down what that command is doing.
-* `npx` is a tool used to run packages.
+* `npx` is a tool used to run packages from the npm registry.
 * `lwc-create-app` is a tool written by [René Winkelmeyer](https://twitter.com/muenzpraeger) to help bootstrap a new LWC application.
 * `lwc-todo` is the name that you want to give to your project.
 
-After running that command, you will be presented with a bunch of options. Feel free to accept the defaults by hitting enter on each line. You may have to enter a value for certain options depending on your setup.
+After running that command, you will be presented with a bunch of options. Feel free to accept the defaults by hitting enter on each line. You may be required to enter a value for certain options depending on your setup.
 
 It should take a couple seconds to fetch and install all of the packages for your application.
 
@@ -43,7 +43,7 @@ This will compile your application and run it on a development server. It will a
 
 Navigate to the URL displayed in your command line.
 
-🎉Congrats on your first Lightning Web Components application. 🎉
+🎉Congrats on your first Lightning Web Components application! 🎉
 
 ## Development
 
@@ -62,6 +62,13 @@ npm run build
 This will create a new directory, `dist`, that you can deploy to whatever hosting service you want. I recommend checking out [Heroku](https://www.heroku.com/) or [Netlify](https://www.netlify.com/). They both offer free tiers and make it super easy to distribute your application.
 
 Now go create something awesome with Lightning Web Components!
+
+## Learning Resources
+
+* ⚡️ [Lightning Web Components Dev Guide](https://lwc.dev/guide/introduction)
+* ⚡️ [Code Recipes](https://github.com/trailheadapps/lwc-recipes-oss)
+* ⚡️ [Trailhead](https://trailhead.salesforce.com/en/content/learn/trails/build-lightning-web-components)
+* ⚡️ [Pluralsight](https://www.pluralsight.com/courses/play-by-play-understanding-lightning-web-components-non-salesforce-developers)
 
 ## Thanks!
 
