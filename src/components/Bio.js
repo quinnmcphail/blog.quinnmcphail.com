@@ -28,9 +28,11 @@ class Bio extends React.Component {
           <br />
           Lightning App Dev Champion ⚡️
           <br />
-          <a href="https://docs.google.com/document/d/18ykKgtlrrPo0Z8iki4wT1SSVAbvrfYTzq5b29AndzgA/edit?usp=sharing">
+          Frontend Developer @{' '}
+          <a href="https://www.7summitsinc.com">7Summits</a>
+          {/* <a href="https://docs.google.com/document/d/18ykKgtlrrPo0Z8iki4wT1SSVAbvrfYTzq5b29AndzgA/edit?usp=sharing">
             Resume
-          </a>
+          </a> */}
         </p>
       </div>
     );
