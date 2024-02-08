@@ -26,10 +26,8 @@ class Bio extends React.Component {
           Personal blog by{' '}
           <a href="https://mobile.twitter.com/quinnmcphail">Quinn McPhail</a>.
           <br />
-          Lightning App Dev Champion ⚡️
-          <br />
-          Frontend Developer @{' '}
-          <a href="https://www.7summitsinc.com">7Summits</a>
+          Principal, Salesforce Experience Cloud @{' '}
+          <a href="https://www.slalom.com/">Slalom</a>
           {/* <a href="https://docs.google.com/document/d/18ykKgtlrrPo0Z8iki4wT1SSVAbvrfYTzq5b29AndzgA/edit?usp=sharing">
             Resume
           </a> */}
